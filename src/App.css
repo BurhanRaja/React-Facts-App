@@ -1,0 +1,45 @@
+body {
+  background-color: #222222;
+  background-image: url('/public/logo512.png');
+  background-repeat: no-repeat;
+  background-position: 110% 35vh;
+  background-blend-mode: exclusion;
+  background-size: 35vw;
+}
+.navbar {
+  background-color: #161616;
+}
+.navbar-container {
+  width: 100%;
+}
+
+.web-title{
+  color:  #82d4fb;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.course {
+  color: white;
+  margin-top: 3px;
+}
+
+.container {
+  color: white;
+}
+.body-title{
+  margin: 5% 2% 2% 2%;
+}
+
+ul {
+  list-style: none;
+}
+.facts-list li {
+  margin: 8px 0px;
+}
+.facts-list li::before {
+  content: "\2022";
+  color:  #82d4fb;
+  margin: 0px 8px 0px 0px;
+  font-weight: 700;
+}
